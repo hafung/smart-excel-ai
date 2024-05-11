@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
   // Ask OpenAI for a streaming completion given the prompt
   // const response = await openai.createChatCompletion({ // runtime = 'edge'
   const response = await openai.chat.completions.create({
-    model: 'gpt-3.5-turbo',
+    model: `${process.env.LLM_MODEL_NAME}`,
     stream: true,
     messages: [
       {
