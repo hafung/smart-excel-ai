@@ -73,7 +73,6 @@ If this project is helpful to you, star the repo and buy be a coffee, thank you.
 
 <a href="https://afdian.net/a/weijunext" target="_blank"><img src="./public/afd.png" alt="在爱发电支持我" style="height: 50px !important"></a>
 
-<img src="./public/zs.jpeg" alt="赞赏作者" style="height: 200px; width: 200px">
 
 ## Star History
 

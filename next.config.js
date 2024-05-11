@@ -9,7 +9,7 @@ const nextConfig = {
     domains: [
       "avatars.githubusercontent.com",
       "weijunext.com",
-      "smartexcel.cc",
+      "sheetai.top/",
     ],
   },
   async redirects() {

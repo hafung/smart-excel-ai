@@ -4,10 +4,10 @@
  * @see https://weijunext.com/article/979b9033-188c-4d88-bfff-6cf74d28420d
  */
 module.exports = {
-  siteUrl: 'https://www.smartexcel.cc',
+  siteUrl: 'https://www.sheetai.top',
   changefreq: 'daily',
   priority: 0.7,
-  exclude: ['/server-sitemap.xml',  '/404'],
+  exclude: ['/server-sitemap.xml', '/404'],
   generateRobotsTxt: true,
   sitemapSize: 5000, // 站点超过5000个，拆分到多个文件
   transform: async (config, path) => {
@@ -25,7 +25,7 @@ module.exports = {
   ],
   robotsTxtOptions: {
     additionalSitemaps: [
-      'https://www.smartexcel.cc/sitemap.xml',
+      'https://www.sheetai.top/sitemap.xml',
     ],
     policies: [
       {

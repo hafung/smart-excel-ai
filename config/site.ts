@@ -1,24 +1,24 @@
 import { SiteConfig } from "@/types/siteConfig"
 
 const baseSiteConfig = {
-  name: "Smart Excel",
+  name: "Sheet AI",
   description:
     "Generate the Excel formulas in seconds.",
-  url: "https://smartexcel.cc",
-  ogImage: "https://smartexcel.cc/og.jpg",
-  metadataBase: new URL("https://www.smartexcel.cc"),
+  url: "https://www.sheetai.top",
+  ogImage: "https://www.sheetai.top/og.jpg",
+  metadataBase: new URL("https://www.sheetai.top"),
   keywords: ["SmartExcel", "ChatGPT", "Excel formulas", "Excel AI", "文心一言", "智谱"],
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
+      name: "hafung",
+      url: "https://hafung.top",
     }
   ],
-  creator: '@weijunext',
+  creator: '@hafung',
   themeColor: '#fff',
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
+    shortcut: "/favicon-16x16.png", // todo
     apple: "/apple-touch-icon.png",
   },
   links: {
