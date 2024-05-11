@@ -14,6 +14,8 @@ import OpenAI from 'openai';
 // const openai = new OpenAIApi(config);
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
+  baseURL: process.env.OPENAI_BASE_URL,
+
 });
 
 // Set the runtime to edge for best performance

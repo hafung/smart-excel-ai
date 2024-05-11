@@ -1,11 +1,7 @@
 🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
 
 
-# [SmartExcel.cc](https://www.smartExcel.cc/)
-
 Generate the Excel formulas you need in seconds using AI.
-
-[![Generate the Excel formulas](./public/screenshot.png)](https://www.smartExcel.cc/)
 
 ## How it works
 
@@ -64,7 +60,6 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
-[微信交流群](https://weijunext.com/make-a-friend)  
 
 If this project is helpful to you, star the repo and buy be a coffee, thank you.
 
