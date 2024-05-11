@@ -1,9 +1,6 @@
 "use client";
 
 import DropDown, { LanguageType } from "@/components/DropDown";
-import Github from "@/components/icons/GitHub";
-import Twitter from "@/components/icons/Twitter";
-import Subscribe from "@/components/subscribe/Subscribe";
 import { siteConfig } from "@/config/site";
 import { formatNumber } from "@/lib/data";
 import { UserInfo } from "@/types/user";
@@ -92,24 +89,6 @@ export default function HomePage({
         className="mx-auto mt-6 flex items-center justify-center space-x-5"
         style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
       >
-        <a
-          href="https://twitter.com/weijunext/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-blue-200 mb-5"
-        >
-          <Twitter className="h-5 w-5" />
-          <p className="text-sm font-semibold">Follow Me</p>
-        </a>
-        <a
-          href="https://github.com/weijunext/smart-excel-ai"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-        >
-          <Github className="h-5 w-5" />
-          <p className="text-sm font-semibold">Star on GitHub</p>
-        </a>
       </div>
       <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
         {siteConfig.description}
@@ -254,8 +233,8 @@ export default function HomePage({
         )}
       </output>
 
-      {/* subscribe */}
-      <Subscribe user={user} />
+      {/* subscribe // 订阅信息先注释了... */}
+      {/* <Subscribe user={user} /> */}
     </>
   );
 }

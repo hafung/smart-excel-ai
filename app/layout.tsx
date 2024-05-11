@@ -1,4 +1,3 @@
-import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
 import { NextAuthProvider } from "@/app/providers";
 import Footer from "@/components/Footer";
@@ -74,7 +73,7 @@ export default async function RootLayout({
         ) : (
           <>
             <GoogleAnalytics />
-            <BaiDuAnalytics />
+            {/* <BaiDuAnalytics /> */}
           </>
         )}
       </body>
