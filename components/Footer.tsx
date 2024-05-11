@@ -21,8 +21,8 @@ const Footer = () => {
             Github Bio Generator
           </Link>
           <div>{" • "}</div>
-          <Link href="https://smartexcel.cc/" target="_blank">
-            Smart Excel
+          <Link href="https://sheetai.top/" target="_blank">
+            Sheet AI
           </Link>
           <div>{" • "}</div>
           <Link href="https://nextjs.weijunext.com/" target="_blank">
